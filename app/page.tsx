@@ -152,7 +152,7 @@ export default function Home() {
             </div>
 
             <div className="click">
-                <a href="#art-banner">Go to cool new section &darr;</a>
+                <a href="">Go to cool new section &darr;</a>
             </div>
 
             <div className="art-banner" id="art-banner">
