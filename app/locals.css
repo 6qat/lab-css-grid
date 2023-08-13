@@ -12,11 +12,7 @@ body {
 }
 
 /*====================================================================================================================*/
-
-.click {
-    padding: 20px;
-    text-align: center;
-}
+/* Exemplo 1                                                                                                          */
 
 .parent {
     padding: 20px;
@@ -46,6 +42,7 @@ body {
 }
 
 /*====================================================================================================================*/
+/* Exemplo 2                                                                                                          */
 
 .example-banner {
     max-width: 900px;
@@ -174,4 +171,9 @@ body {
     opacity: 0.85;
     border-bottom: 5px solid rgb(255, 41, 123);
     border-left: 5px solid rgb(255, 41, 123);
+}
+
+.click {
+    padding: 20px;
+    text-align: center;
 }

@@ -1,6 +1,9 @@
 export default function Home() {
     return (
         <main>
+            {/*======================================================================================================*/}
+            {/* Exemplo 1                                                                                            */}
+
             <div className="parent">
                 <div className="item">
                     <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit tempore dolorum
@@ -33,6 +36,9 @@ export default function Home() {
                 {/*        minus facilis velit, optio tenetur. Minus, accusamus.</p>*/}
                 {/*</div>*/}
             </div>
+
+            {/*======================================================================================================*/}
+            {/* Exemplo 2                                                                                            */}
 
             <div className="example-banner">
                 <div className="center-me">Hello</div>
