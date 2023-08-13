@@ -1,4 +1,5 @@
 import './globals.css'
+import './locals.css'
 import type {Metadata} from 'next'
 import React from "react";
 
