@@ -1,6 +1,9 @@
 export default function Tailwind() {
     return (
         <main>
+            {/*======================================================================================================*/}
+            {/* Exemplo 1                                                                                            */}
+
             {/*<div className="grid grid-cols-[60%_1fr_1fr] p-[20px] gap-[20px] ">*/}
             {/*<div className="grid grid-cols-[500px_1fr_1fr] p-[20px] gap-[20px] ">*/}
             <div className="grid grid-cols-3 p-[20px] gap-[20px] ">
@@ -35,6 +38,17 @@ export default function Tailwind() {
                 {/*        minus facilis velit, optio tenetur. Minus, accusamus.</p>*/}
                 {/*</div>*/}
             </div>
+
+            {/*======================================================================================================*/}
+            {/* Exemplo 2                                                                                            */}
+
+            <div className="">
+                <div className="">Hello</div>
+            </div>
+
+            {/*======================================================================================================*/}
+            {/* Exemplo 3                                                                                            */}
+
 
         </main>
     )

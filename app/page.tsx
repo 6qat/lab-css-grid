@@ -44,6 +44,9 @@ export default function Home() {
                 <div className="center-me">Hello</div>
             </div>
 
+            {/*======================================================================================================*/}
+            {/* Exemplo 3                                                                                            */}
+
             <div className="full-width-example">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab sed odio dicta tempora commodi
                     possimus nulla, unde officia placeat. Sed quibusdam numquam nulla molestiae alias ipsa distinctio
