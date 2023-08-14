@@ -42,8 +42,8 @@ export default function Tailwind() {
             {/*======================================================================================================*/}
             {/* Exemplo 2                                                                                            */}
 
-            <div className="">
-                <div className="">Hello</div>
+            <div className="bg-[#dedeff] max-w-[900px] h-[300px] mx-auto mb-[20px] grid">
+                <div className="mx-auto my-auto text-[3rem] text-[#7171af]">Hello</div>
             </div>
 
             {/*======================================================================================================*/}
