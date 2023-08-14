@@ -53,6 +53,9 @@ export default function Home() {
                     dicta iste!</p>
             </div>
 
+            {/*======================================================================================================*/}
+            {/* Exemplo 4                                                                                            */}
+
             <div className="photo-example">
                 <img
                     src="https://images.unsplash.com/photo-1508948956644-0017e845d797?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzY4Nzc3Mg&ixlib=rb-1.2.1&q=85"

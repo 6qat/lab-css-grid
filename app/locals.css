@@ -62,11 +62,17 @@ body {
 /* Exemplo 3                                                                                                          */
 
 .full-width-example {
+    display: grid;
+    grid-template-columns: minmax(auto, 900px);
+    justify-content: center;
     background-color: rgb(255, 211, 130);
     color: rgb(112, 86, 38);
     line-height: 1.7;
     padding: 20px;
 }
+
+/*====================================================================================================================*/
+/* Exemplo 4                                                                                                          */
 
 .photo-example {
     max-width: 700px;
