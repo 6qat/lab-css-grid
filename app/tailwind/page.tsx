@@ -49,6 +49,11 @@ export default function Tailwind() {
             {/*======================================================================================================*/}
             {/* Exemplo 3                                                                                            */}
 
+            <div className="bg-[#ffd382] p-[20px] grid grid-cols-[minmax(auto,_900px)] justify-center leading-[1.7] text-[#705626]">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ab sed odio dicta tempora commodi
+                    possimus nulla, unde officia placeat. Sed quibusdam numquam nulla molestiae alias ipsa distinctio
+                    dicta iste!</p>
+            </div>
 
         </main>
     )
