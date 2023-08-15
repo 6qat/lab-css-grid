@@ -7,7 +7,7 @@ export default function Tailwind() {
             {/*<div className="grid grid-cols-[60%_1fr_1fr] p-[20px] gap-[20px] ">*/}
             {/*<div className="grid grid-cols-[500px_1fr_1fr] p-[20px] gap-[20px] ">*/}
             <div className="grid grid-cols-3 p-[20px] gap-[20px] ">
-                <div className="bg-mygray p-5 row-span-2 text-[1.1rem] leading-[1.7] grid grid-cols-1 items-center">
+                <div className="bg-mygray p-5 row-span-2 text-[1.1rem] leading-[1.7] grid items-center">
                     <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit tempore dolorum
                         molestias ut animi. Debitis eveniet, excepturi temporibus perspiciatis placeat ipsam expedita
                         minus facilis velit, optio tenetur. Minus, accusamus.</p>
