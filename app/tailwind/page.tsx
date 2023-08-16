@@ -61,9 +61,10 @@ export default function Tailwind() {
 
             <div className="grid max-w-[700px] mx-auto my-[20px]">
                 <img className="col-start-1 row-start-1"
-                    src="https://images.unsplash.com/photo-1508948956644-0017e845d797?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzY4Nzc3Mg&ixlib=rb-1.2.1&q=85"
-                    alt="A criminally cute dog."/>
-                <div className="col-start-1 row-start-1 self-end text-[#fff] bg-[#0000004f] p-[20px] text-[0.85rem] leading-[1.7]">
+                     src="https://images.unsplash.com/photo-1508948956644-0017e845d797?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzY4Nzc3Mg&ixlib=rb-1.2.1&q=85"
+                     alt="A criminally cute dog."/>
+                <div className="col-start-1 row-start-1 self-end
+                                text-[#fff] bg-[#0000004f] p-[20px] text-[0.85rem] leading-[1.7]">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem eos ad dolores! Ipsum
                         vitae rem eaque iusto pariatur. Vero ad dolorem optio totam eius eaque deleniti animi culpa?
                         Laboriosam, quae.</p>

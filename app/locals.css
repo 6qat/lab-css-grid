@@ -106,16 +106,24 @@ body {
 /* Exemplo 5                                                                                                          */
 
 .layout {
-
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "sidebar footer";
 }
 
 .header {
+    /*grid-column: span 2;*/
+    grid-area: header;
     background-color: rgb(113, 113, 175);
     color: #fff;
     padding: 20px;
 }
 
 .sidebar {
+    grid-area: sidebar;
     background-color: #ddd;
     font-size: 0.8rem;
     color: #999;
@@ -123,16 +131,22 @@ body {
 }
 
 .main {
+    grid-area: main;
     padding: 20px;
     line-height: 1.7;
 }
 
 .footer {
+    grid-area: footer;
+    align-self: end;
     background-color: rgb(77, 77, 77);
     color: #fff;
     padding: 15px;
     font-size: 0.75rem;
 }
+
+/*====================================================================================================================*/
+/* Exemplo 6                                                                                                          */
 
 .responsive-example {
     max-width: 1100px;

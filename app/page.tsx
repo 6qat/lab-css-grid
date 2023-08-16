@@ -73,16 +73,14 @@ export default function Home() {
             <div className="layout">
                 <div className="header">This is the header</div>
                 <div className="main">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, blanditiis numquam?
-                        Deleniti suscipit corrupti vitae asperiores quaerat doloremque animi, repudiandae perspiciatis
-                        fugit placeat ullam quo laboriosam ex ea, enim quia.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, laborum sunt! Quisquam unde,
+                        quae rerum harum adipisci aliquid quos molestiae quam, quas sequi tenetur repellat explicabo
+                        fuga dicta, repudiandae ipsam.</p>
+
                 </div>
 
                 <div className="sidebar">
                     <p>This sidebar has useful links and content.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, laborum sunt! Quisquam unde,
-                        quae rerum harum adipisci aliquid quos molestiae quam, quas sequi tenetur repellat explicabo
-                        fuga dicta, repudiandae ipsam.</p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi nobis sed tenetur officiis qui
                         libero mollitia, sint aspernatur quibusdam eius ea quas! At facere itaque nesciunt praesentium,
                         vel repellat incidunt!</p>
@@ -98,10 +96,14 @@ export default function Home() {
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi nobis sed tenetur officiis qui
                         libero mollitia, sint aspernatur quibusdam eius ea quas! At facere itaque nesciunt praesentium,
                         vel repellat incidunt!</p>
+
                 </div>
 
                 <div className="footer">&copy; 2021</div>
             </div>
+
+            {/*======================================================================================================*/}
+            {/* Exemplo 6                                                                                            */}
 
             <div className="responsive-example">
                 <div className="responsive-item">
