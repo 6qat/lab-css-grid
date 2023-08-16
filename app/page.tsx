@@ -168,9 +168,15 @@ export default function Home() {
                 </div>
             </div>
 
+            {/*======================================================================================================*/}
+            {/* Exemplo 7                                                                                            */}
+
             <div className="click">
                 <a href="">Go to cool new section &darr;</a>
             </div>
+
+            {/*======================================================================================================*/}
+            {/* Exemplo 8                                                                                            */}
 
             <div className="art-banner" id="art-banner">
                 <div className="art-banner-bg"></div>

@@ -151,6 +151,9 @@ body {
 .responsive-example {
     max-width: 1100px;
     margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
 }
 
 .responsive-item {
@@ -161,6 +164,9 @@ body {
     line-height: 1.7;
     overflow: auto;
 }
+
+{/*======================================================================================================*/}
+{/* Exemplo 8                                                                                            */}
 
 .art-banner {
     background-color: rgb(0, 80, 112);
