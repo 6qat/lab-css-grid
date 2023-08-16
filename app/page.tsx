@@ -172,12 +172,9 @@ export default function Home() {
             {/* Exemplo 7                                                                                            */}
 
             <div className="click">
-                <a href="">Go to cool new section &darr;</a>
+                <a href="/#art-banner">Go to cool new section &darr;</a>
             </div>
-
-            {/*======================================================================================================*/}
-            {/* Exemplo 8                                                                                            */}
-
+                                                                                                       */
             <div className="art-banner" id="art-banner">
                 <div className="art-banner-bg"></div>
                 <div className="banner-text">Hello there.</div>
