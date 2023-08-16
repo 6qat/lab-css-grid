@@ -71,6 +71,42 @@ export default function Tailwind() {
                 </div>
             </div>
 
+            {/*======================================================================================================*/}
+            {/* Exemplo 5                                                                                            */}
+
+            <div className="grid grid-cols-[1fr_2.5fr]">
+                <div className="bg-[#7171af] text-[#fff] col-span-2 p-[20px]">This is the header</div>
+
+                <div className="bg-[#ddd] text-[#999] row-span-2 p-[20px] text-[0.8rem]">
+                    <p>This sidebar has useful links and content.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi nobis sed tenetur officiis qui
+                        libero mollitia, sint aspernatur quibusdam eius ea quas! At facere itaque nesciunt praesentium,
+                        vel repellat incidunt!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi nobis sed tenetur officiis qui
+                        libero mollitia, sint aspernatur quibusdam eius ea quas! At facere itaque nesciunt praesentium,
+                        vel repellat incidunt!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi nobis sed tenetur officiis qui
+                        libero mollitia, sint aspernatur quibusdam eius ea quas! At facere itaque nesciunt praesentium,
+                        vel repellat incidunt!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi nobis sed tenetur officiis qui
+                        libero mollitia, sint aspernatur quibusdam eius ea quas! At facere itaque nesciunt praesentium,
+                        vel repellat incidunt!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi nobis sed tenetur officiis qui
+                        libero mollitia, sint aspernatur quibusdam eius ea quas! At facere itaque nesciunt praesentium,
+                        vel repellat incidunt!</p>
+
+                </div>
+
+                <div className="p-[20px] leading-[1.7]">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, laborum sunt! Quisquam unde,
+                        quae rerum harum adipisci aliquid quos molestiae quam, quas sequi tenetur repellat explicabo
+                        fuga dicta, repudiandae ipsam.</p>
+
+                </div>
+
+                <div className="bg-[#4d4d4d] text-[#fff] self-end p-[15px] text-[0.75rem]">&copy; 2021</div>
+            </div>
+
 
         </main>
     )
