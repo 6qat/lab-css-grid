@@ -75,16 +75,22 @@ body {
 /* Exemplo 4                                                                                                          */
 
 .photo-example {
+    display: grid;
     max-width: 700px;
     margin: 20px auto;
 }
 
 .photo-example img {
+    grid-column: 1;
+    grid-row: 1;
     max-width: 100%;
     display: block;
 }
 
 .overlay-text {
+    grid-column: 1/-1;
+    grid-row: 1/4;
+    align-self: end;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.308);
     padding: 20px;
