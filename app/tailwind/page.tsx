@@ -107,6 +107,72 @@ export default function Tailwind() {
                 <div className="bg-[#4d4d4d] text-[#fff] self-end p-[15px] text-[0.75rem]">&copy; 2021</div>
             </div>
 
+            {/*======================================================================================================*/}
+            {/* Exemplo 6                                                                                            */}
+
+            <div className="grid mx-auto my-[20px] grid-cols-[repeat(auto-fit,_minmax(180px,_1fr))] gap-[20px] max-w-[1100px]">
+                <div className="p-[20px] bg-[#ccf7e6] text-[#5a917b] text-[0.77rem] leading[1.7]">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloribus magni soluta in velit
+                        neque, at explicabo ipsam ea placeat itaque consequatur deserunt officiis quam! Accusamus
+                        corporis repellendus nihil ipsa.</p>
+                </div>
+                <div className="p-[20px] bg-[#ccf7e6] text-[#5a917b] text-[0.77rem] leading-[1.7]">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloribus magni soluta in velit
+                        neque, at explicabo ipsam ea placeat itaque consequatur deserunt officiis quam! Accusamus
+                        corporis repellendus nihil ipsa.</p>
+                </div>
+                <div className="p-[20px] bg-[#ccf7e6] text-[#5a917b] text-[0.77rem] leading-[1.7]">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloribus magni soluta in velit
+                        neque, at explicabo ipsam ea placeat itaque consequatur deserunt officiis quam! Accusamus
+                        corporis repellendus nihil ipsa.</p>
+                </div>
+                <div className="p-[20px] bg-[#ccf7e6] text-[#5a917b] text-[0.77rem] leading-[1.7]">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloribus magni soluta in velit
+                        neque, at explicabo ipsam ea placeat itaque consequatur deserunt officiis quam! Accusamus
+                        corporis repellendus nihil ipsa.</p>
+                </div>
+                <div className="p-[20px] bg-[#ccf7e6] text-[#5a917b] text-[0.77rem] leading-[1.7]">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloribus magni soluta in velit
+                        neque, at explicabo ipsam ea placeat itaque consequatur deserunt officiis quam! Accusamus
+                        corporis repellendus nihil ipsa.</p>
+                </div>
+                <div className="p-[20px] bg-[#ccf7e6] text-[#5a917b] text-[0.77rem] leading-[1.7]">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloribus magni soluta in velit
+                        neque, at explicabo ipsam ea placeat itaque consequatur deserunt officiis quam! Accusamus
+                        corporis repellendus nihil ipsa.</p>
+                </div>
+                <div className="p-[20px] bg-[#ccf7e6] text-[#5a917b] text-[0.77rem] leading-[1.7]">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloribus magni soluta in velit
+                        neque, at explicabo ipsam ea placeat itaque consequatur deserunt officiis quam! Accusamus
+                        corporis repellendus nihil ipsa.</p>
+                </div>
+                <div className="p-[20px] bg-[#ccf7e6] text-[#5a917b] text-[0.77rem] leading-[1.7]">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloribus magni soluta in velit
+                        neque, at explicabo ipsam ea placeat itaque consequatur deserunt officiis quam! Accusamus
+                        corporis repellendus nihil ipsa.</p>
+                </div>
+                <div className="p-[20px] bg-[#ccf7e6] text-[#5a917b] text-[0.77rem] leading-[1.7]">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloribus magni soluta in velit
+                        neque, at explicabo ipsam ea placeat itaque consequatur deserunt officiis quam! Accusamus
+                        corporis repellendus nihil ipsa.</p>
+                </div>
+                <div className="p-[20px] bg-[#ccf7e6] text-[#5a917b] text-[0.77rem] leading-[1.7]">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloribus magni soluta in velit
+                        neque, at explicabo ipsam ea placeat itaque consequatur deserunt officiis quam! Accusamus
+                        corporis repellendus nihil ipsa.</p>
+                </div>
+                <div className="p-[20px] bg-[#ccf7e6] text-[#5a917b] text-[0.77rem] leading-[1.7]">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloribus magni soluta in velit
+                        neque, at explicabo ipsam ea placeat itaque consequatur deserunt officiis quam! Accusamus
+                        corporis repellendus nihil ipsa.</p>
+                </div>
+                <div className="p-[20px] bg-[#ccf7e6] text-[#5a917b] text-[0.77rem] leading-[1.7]">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloribus magni soluta in velit
+                        neque, at explicabo ipsam ea placeat itaque consequatur deserunt officiis quam! Accusamus
+                        corporis repellendus nihil ipsa.</p>
+                </div>
+            </div>
+
 
         </main>
     )
