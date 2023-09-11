@@ -110,7 +110,8 @@ export default function Tailwind() {
             {/*======================================================================================================*/}
             {/* Exemplo 6                                                                                            */}
 
-            <div className="grid mx-auto my-[20px] grid-cols-[repeat(auto-fit,_minmax(180px,_1fr))] gap-[20px] max-w-[1100px]">
+            <div
+                className="grid mx-auto my-[20px] grid-cols-[repeat(auto-fit,_minmax(180px,_1fr))] gap-[20px] max-w-[1100px]">
                 <div className="p-[20px] bg-[#ccf7e6] text-[#5a917b] text-[0.77rem] leading[1.7]">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloribus magni soluta in velit
                         neque, at explicabo ipsam ea placeat itaque consequatur deserunt officiis quam! Accusamus
@@ -168,11 +169,27 @@ export default function Tailwind() {
                 </div>
                 <div className="p-[20px] bg-[#ccf7e6] text-[#5a917b] text-[0.77rem] leading-[1.7]">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil doloribus magni soluta in velit
+
                         neque, at explicabo ipsam ea placeat itaque consequatur deserunt officiis quam! Accusamus
                         corporis repellendus nihil ipsa.</p>
                 </div>
             </div>
+            {/*======================================================================================================*/}
+            {/* Exemplo 7                                                                                            */}
 
+            <div className="">
+                <a href="/#art-banner">Go to cool new section &darr;</a>
+            </div>
+
+            <div
+                className="grid h-[100vh] grid-cols-[20px_1fr_1fr_1fr_20px] grid-rows-[20px_1fr_1fr_1fr_20px] bg-[#005070]"
+                id="art-banner">
+                <div className="col-start-1 col-end-6 row-start-1 row-end-6" id="art-banner-bg"></div>
+                <div id="banner-text">Hello there.</div>
+                <div id="badge">
+                    <p>New!</p>
+                </div>
+            </div>
 
         </main>
     )
