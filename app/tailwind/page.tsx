@@ -1,4 +1,5 @@
 export default function Tailwind() {
+    // noinspection SpellCheckingInspection
     return (
         <main>
             {/*======================================================================================================*/}
@@ -178,15 +179,17 @@ export default function Tailwind() {
             {/* Exemplo 7                                                                                            */}
 
             <div className="">
-                <a href="/#art-banner">Go to cool new section &darr;</a>
+                <a href="#art-banner">Go to cool new section &darr;</a>
             </div>
 
             <div
-                className="grid h-[100vh] grid-cols-[20px_1fr_1fr_1fr_20px] grid-rows-[20px_1fr_1fr_1fr_20px] bg-[#005070]"
-                id="art-banner">
-                <div className="col-start-1 col-end-6 row-start-1 row-end-6" id="art-banner-bg"></div>
-                <div id="banner-text">Hello there.</div>
-                <div id="badge">
+                className="art-banner grid h-[100vh] grid-cols-[20px_1fr_1fr_1fr_20px]
+                    grid-rows-[20px_1fr_1fr_1fr_20px] bg-[#005070]"
+                id="art-banner"
+            >
+                <div className="art-banner-bg col-start-1 col-end-6 row-start-1 row-end-6" id="art-banner-bg"></div>
+                <div className="banner-text" id="banner-text">Hello there.</div>
+                <div className="badge" id="badge">
                     <p>New!</p>
                 </div>
             </div>
