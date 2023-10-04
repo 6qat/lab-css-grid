@@ -1,3 +1,8 @@
+:root {
+    --main-radius: 5px;
+    --main-padding: 5px;
+}
+
 .cont {
     display: grid;
     height: 100vh;
@@ -9,42 +14,61 @@
             "side cont1 cont2 cont3"
             "side footer footer footer";
     grid-gap: .2rem;
-
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #004d40;
+    text-align: center;
 }
 
 nav {
     background: #a7ffeb;
     grid-area: nav;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding)
 }
 
 main {
     background: #84ffff;
     grid-area: main;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding)
 }
 
 #sidebar {
     background: #18ffff;
     grid-area: side;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding)
 }
 
 #content1 {
     background: #6fffd2;
     grid-area: cont1;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding)
 }
 
 #content2 {
     background: #64ffda;
     grid-area: cont2;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding)
 }
 
 #content3 {
     background: #73ffba;
     grid-area: cont3;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding)
 }
 
 footer {
     background: #1de9b6;
     grid-area: footer;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding)
 }
 
 @media only screen and (max-width: 550px) {
