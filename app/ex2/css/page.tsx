@@ -2,7 +2,7 @@ import './local.css'
 
 export default function Ex2CssHome() {
     return (
-        <div className="container">
+        <div className="cont">
             <nav>
                 Navbar
             </nav>
