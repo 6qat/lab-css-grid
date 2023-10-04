@@ -1,4 +1,6 @@
-export default function Home() {
+import './locals.css'
+
+export default function Ex1CssHome() {
     return (
         <main>
             {/*======================================================================================================*/}

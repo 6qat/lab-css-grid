@@ -1,4 +1,4 @@
-export default function Tailwind() {
+export default function Ex1TailwindHome() {
     // noinspection SpellCheckingInspection
     return (
         <main>
