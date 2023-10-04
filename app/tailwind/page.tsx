@@ -183,15 +183,32 @@ export default function Tailwind() {
             </div>
 
             <div
-                className="art-banner grid h-[100vh] grid-cols-[20px_1fr_1fr_1fr_20px]
-                    grid-rows-[20px_1fr_1fr_1fr_20px] bg-[#005070]"
+                className="grid h-[100vh] grid-cols-[20px_1fr_1fr_1fr_20px]
+                    grid-rows-[20px_1fr_1fr_1fr_20px] bg-[#005070]
+                    before:border-t-4 before:border-t-red-500 before:border-r-4 before:border-r-red-500
+                    before:row-start-2 before:row-span-2 before:col-start-4
+                    after:border-b-4 after:border-b-red-500 after:border-l-4 after:border-l-red-500
+                    after:row-start-3 after:row-span-2 after:col-start-2"
                 id="art-banner"
             >
-                <div className="art-banner-bg col-start-1 col-end-6 row-start-1 row-end-6" id="art-banner-bg"></div>
-                <div className="banner-text" id="banner-text">Hello there.</div>
-                <div className="badge" id="badge">
-                    <p>New!</p>
+
+                <div className="col-start-1 col-end-6
+                    row-start-1 row-end-6 opacity-10 bg-cover
+                    bg-[url('https://images.unsplash.com/photo-1574492543172-b37ab0de758c?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMzY4Nzg2MA&ixlib=rb-1.2.1&q=85')]"
+                />
+
+                <div className="text-white text-[8vw] font-bold
+                    col-start-2 col-span-2 row-start-3 justify-self-center self-center"
+                >
+                    Hello there.
                 </div>
+
+                <div className="grid bg-[#ff297b] text-white text-[2.5vw] font-bold w-[10vw] h-[10vw] rounded-full
+                    col-start-4 row-start-3 rotate-[15deg] justify-self-center self-center"
+                >
+                    <p className="m-auto">New!</p>
+                </div>
+
             </div>
 
         </main>
